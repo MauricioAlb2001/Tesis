@@ -1,0 +1,5 @@
+config,metric,n_seeds,shapiro_p
+Baseline,average_precision,10,0.48969702670539145
+Baseline,roc_auc,10,0.3450161433825582
+Tuned,average_precision,10,0.3126899295503546
+Tuned,roc_auc,10,0.4767134133045915

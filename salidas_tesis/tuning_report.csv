@@ -1,0 +1,7 @@
+model;best_cv_average_precision;n_iter;cv_folds;elapsed_seconds;best_params
+Logistic Regression;0.332011839;20;5;48.77043462;"{""solver"": ""lbfgs"", ""penalty"": ""l2"", ""C"": 0.0001}"
+Decision Tree;0.327977926;20;5;9.248712063;"{""min_samples_split"": 20, ""min_samples_leaf"": 4, ""max_depth"": 8}"
+SVM (Lineal);0.269847055;20;5;8.472907066;"{""C"": 0.29763514416313164}"
+Random Forest;0.372968374;25;5;1955.773329;"{""n_estimators"": 300, ""min_samples_split"": 2, ""min_samples_leaf"": 4, ""max_features"": ""sqrt"", ""max_depth"": 8}"
+Bagging (Decision Tree);0.376606254;25;5;1560.604525;"{""n_estimators"": 800, ""max_samples"": 0.8, ""max_features"": 0.6, ""base_estimator_params"": {""min_samples_leaf"": 4, ""max_depth"": 5}}"
+XGBoost;0.363183905;25;5;127.6222482;"{""subsample"": 0.9, ""reg_lambda"": 5.0, ""n_estimators"": 300, ""min_child_weight"": 3, ""max_depth"": 3, ""learning_rate"": 0.03, ""colsample_bytree"": 0.8}"
