@@ -1,5 +1,0 @@
-config,metric,best_ensemble_model,best_no_ensemble_model,n_seeds,n_nonzero,delta_mean,delta_median,wilcoxon_stat,wilcoxon_p,wilcoxon_r,wilcoxon_p_adj_holm,alternative
-Baseline,average_precision,XGBoost,Logistic Regression,10,10,0.033474637471015985,0.0318223892271946,55.0,0.0009765625,0.9794424813518325,0.00390625,greater
-Baseline,roc_auc,XGBoost,Logistic Regression,10,10,0.02631649118259107,0.02643471674759229,55.0,0.0009765625,0.9794424813518325,0.00390625,greater
-Tuned,average_precision,Bagging (Decision Tree),Logistic Regression,10,10,0.04428382250775574,0.04224777149266512,55.0,0.0009765625,0.9794424813518325,0.00390625,greater
-Tuned,roc_auc,Bagging (Decision Tree),Logistic Regression,10,10,0.024240962865140447,0.023619094081496705,55.0,0.0009765625,0.9794424813518325,0.00390625,greater
